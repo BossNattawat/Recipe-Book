@@ -21,7 +21,7 @@ A simple **React & Zustand-powered** recipe book that allows you to **add, edit,
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/recipe-manager.git
+   git clone https://github.com/BossNattawat/Recipe-Book.git
    ```
 
 2. Navigate to the project folder:
