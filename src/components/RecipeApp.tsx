@@ -97,10 +97,10 @@ function RecipeApp() {
                 {recipes.map((recipe, index) => (
                     <li key={index} className="p-4 bg-base-200 rounded shadow">
                         <h2 className="text-xl text-base-content font-semibold mb-2">{recipe.name}</h2>
-                        <p className="text-base-300 mb-2">
+                        <p className="text-base-content mb-2">
                             <strong>Ingredients:</strong> {recipe.ingredients.join(", ")}
                         </p>
-                        <p className="text-base-300 mb-4">
+                        <p className="text-base-content mb-4">
                         <strong>Instructions:</strong><br />
                         {recipe.instructions.split("\n").map((line, i) => (
                             <span key={i}>
