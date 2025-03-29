@@ -71,7 +71,7 @@ function RecipeApp() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-base-300">
         <div className="bg-base-100 p-6 rounded-lg w-full max-w-2xl shadow">
-            <h1 className="text-3xl font-semibold mb-6 text-center text-white">
+            <h1 className="text-3xl font-semibold mb-6 text-center text-base-content">
                 Recipe Book
             </h1>
             <div className="space-y-4 mb-6">
@@ -97,10 +97,10 @@ function RecipeApp() {
                 {recipes.map((recipe, index) => (
                     <li key={index} className="p-4 bg-base-200 rounded shadow">
                         <h2 className="text-xl text-base-content font-semibold mb-2">{recipe.name}</h2>
-                        <p className="text-gray-300 mb-2">
+                        <p className="text-base-300 mb-2">
                             <strong>Ingredients:</strong> {recipe.ingredients.join(", ")}
                         </p>
-                        <p className="text-gray-300 mb-4">
+                        <p className="text-base-300 mb-4">
                         <strong>Instructions:</strong><br />
                         {recipe.instructions.split("\n").map((line, i) => (
                             <span key={i}>
